@@ -1,0 +1,7 @@
+First run: npm init -y (for installing the package.json file)
+Then : npm -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader html-loader (for installing the necessary devDependecies!)
+Then: npx webpack(for bundling the code)
+html loader is used to run any non-html type files like images wrapped in img els.
+if using images in the javascript, default import the images like: 
+import anyName from "./odin.png"
+run npx webpack serve!!!
