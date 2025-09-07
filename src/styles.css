@@ -65,10 +65,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 3rem;
 }
-
 .banner-txt {
   text-align: center;
   font-size: 1.5rem;
@@ -116,21 +115,23 @@ button:active {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(auto, 200px);
   gap: 1rem;
-  .griddy-child {
-    background-color: orange;
-    display: flex;
-    padding: 1rem;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
-    border-radius: 10px;
-    color: black;
-    img {
-      width: 70%;
-      border-radius: 50%;
-      height: 100%;
-    }
-  }
+}
+
+.griddy-child {
+  background-color: orange;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.griddy-child img {
+  width: 70%;
+  border-radius: 50%;
+  height: 100%;
 }
 
 .header-para,
@@ -179,5 +180,10 @@ footer {
 @media screen and (max-width: 500px) {
   .griddy {
     grid-template-columns: 1fr;
+  }
+  .header-para,
+  .about-header {
+    grid-column: span 1;
+    margin: 0;
   }
 }
