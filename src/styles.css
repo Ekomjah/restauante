@@ -15,6 +15,12 @@ body {
   position: relative;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body::before {
   content: "";
   position: absolute;
@@ -26,7 +32,7 @@ body::before {
 
 #content {
   background-color: rgba(0, 0, 0, 0.603);
-  width: 70%;
+  width: 90%;
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
@@ -62,7 +68,6 @@ main {
   align-items: center;
   justify-content: flex-start;
   margin-top: 3rem;
-  margin-bottom: 2rem;
 }
 
 .banner-txt {
@@ -163,8 +168,12 @@ footer {
   padding: 0;
   flex-direction: column;
   justify-content: center;
+
   img {
     align-self: center;
     width: 100%;
+  }
+  p {
+    margin: 0.41rem;
   }
 }
