@@ -13,7 +13,8 @@ function createHomePage() {
   image.classList.add("banner-img");
   image.src = pizza;
   image.alt = "A yummy pizza!";
-  image.style.margin = "0 auto";
+  image.loading = "lazy"
+
   const header = document.createElement("h1");
   header.textContent = "It's Pizza Time!";
   const para = document.createElement("p");

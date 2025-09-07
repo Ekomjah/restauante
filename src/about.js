@@ -47,6 +47,7 @@ export default function createAboutPage() {
     const image = document.createElement("img");
     image.src = imageArr[i];
     image.alt = "A yummy taco!";
+    image.loading = "lazy";
     const header = document.createElement("div");
     header.textContent = textArr[i];
     const myPara = document.createElement("p");

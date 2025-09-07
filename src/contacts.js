@@ -7,6 +7,7 @@ export default function createContactsPage() {
   const image = document.createElement("img");
   image.src = piks;
   image.alt = "A yummy taco! too";
+  image.loading = "lazy";
   const header = document.createElement("h1");
   header.textContent = "It's Chop Chop Time!";
   const para = document.createElement("p");
