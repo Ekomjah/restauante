@@ -1,5 +1,6 @@
 # 🍕 PizzaYard
 
+![A live version of the project](https://i.postimg.cc/sDNS37g6/Annotation-2025-09-08-093733.png)
 PizzaYard is a simple restaurant web project where pizza is sold.  
 The project was built as a way to **sharpen my CSS skills** and practice **DOM manipulation in JavaScript**.
 
