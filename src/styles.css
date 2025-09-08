@@ -101,7 +101,7 @@ button {
 }
 
 button:hover {
-  color: rgb(241, 14, 14);
+  color: rgb(241, 255,255)
   font-weight: bold;
   cursor: pointer;
 }
@@ -187,3 +187,4 @@ footer {
     margin: 0;
   }
 }
+
