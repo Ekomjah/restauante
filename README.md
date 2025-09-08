@@ -10,7 +10,6 @@ The project was built as a way to **sharpen my CSS skills** and practice **DOM m
 - Responsive design built with **vanilla CSS**
 - Interactive UI powered by **DOM manipulation**
 - Dynamic rendering of pizza items
-- Basic cart functionality (add/remove pizzas)
 - Clean and simple code structure for learning
 
 ---
