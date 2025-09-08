@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 module.exports = {
   mode: "production",
@@ -17,6 +18,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
+    new FaviconsWebpackPlugin("./src/assets/android-chrome-512x512.png"),
   ],
   performance: {
     hints: false,
